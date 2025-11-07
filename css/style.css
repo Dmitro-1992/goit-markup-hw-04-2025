@@ -251,7 +251,7 @@ margin: 0 auto;
     margin-left: auto;
     background-color: var(--iris);
     color: #FFFFFF;
-    background-color:250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -265,6 +265,7 @@ margin: 0 auto;
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--ocean);
+
     }
 /* #endregion hero */
 
@@ -360,6 +361,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     background-color: var(--white);
     border-radius: 0 0 4px 4px;
     border: 1px solid var(--white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 
     /* width: calc((100% - 72px) / 4); */
     width: calc((100% - 3 * 24px) / 4);
@@ -373,7 +377,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 display: flex;
 justify-content: center;
 align-items: center;
-column-gap: 24px;
+gap: 24px;
 } 
 /* .social-networks-item {
 } */
@@ -389,22 +393,14 @@ background-color: var(--iris);
     justify-content: center;
     align-items: center;
     padding: 12px;
-}
-.social-networks-name {
-    display: block;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-networks-link:hover {
-background-color: var(--green);
+.social-networks-link:hover,
+.social-networks-link:focus{
+background-color: var(--ocean);
 fill: var(--cloud);
 }
-
-
-
-
-
-
-
            /* #endregion team */
            
                                   /* #region Our Portfolio */
